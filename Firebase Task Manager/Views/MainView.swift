@@ -27,11 +27,16 @@ struct MainView: View {
                 .tabItem {
                     Label("Home", systemImage: "house")
                 }
+            DayViewControllerView()
+                .tabItem {
+                    Label("DayView", systemImage: "sun.and.horizon")
+                }
             
             ProfileView()
                 .tabItem {
                     Label("Profile", systemImage: "person.circle")
                 }
+            
         }
     }
 }
